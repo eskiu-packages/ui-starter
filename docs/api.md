@@ -352,4 +352,4 @@ void SettingsScreen(*Router router)
 ```
 
 Settings: the theme as a segmented control (saved on the device), and about the app (the
-platform it runs on, a link to eskiu-lang/ui).
+platform it runs on, a link to eskiu-packages/ui).

@@ -4,7 +4,7 @@ import <ui>;
 import <ui/kit>;
 
 // Settings: the theme as a segmented control (saved on the device), and about the app (the
-// platform it runs on, a link to eskiu-lang/ui).
+// platform it runs on, a link to eskiu-packages/ui).
 void SettingsScreen(*Router router) {
     Page() {
         ScreenTitle(null, "Settings");
@@ -20,7 +20,7 @@ void SettingsScreen(*Router router) {
             defer String_free(&platform);
             String_format(&platform, "Running on %s", ui_platform_name());
             ListItem("Starter 0.1.0", platform.data) {}
-            ListItem("Built with eskiu-lang/ui", "github.com/eskiu-lang/ui") { ui_open_url("https://github.com/eskiu-lang/ui"); }
+            ListItem("Built with eskiu-packages/ui", "github.com/eskiu-packages/ui") { ui_open_url("https://github.com/eskiu-packages/ui"); }
         }
     }
 }

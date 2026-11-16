@@ -42,9 +42,9 @@ void check(bool ok, string what) {
     }
 }
 
-const string kAnswer = "[{\"name\": \"ui\", \"description\": \"Native apps\", \"html_url\": \"https://github.com/eskiu-lang/ui\", \"stargazers_count\": 12},"
-    " {\"name\": \"gpu\", \"description\": null, \"html_url\": \"https://github.com/eskiu-lang/gpu\", \"stargazers_count\": 30},"
-    " {\"name\": \"camera\", \"description\": \"Photos\", \"html_url\": \"https://github.com/eskiu-lang/ui-camera\", \"stargazers_count\": 12}]";
+const string kAnswer = "[{\"name\": \"ui\", \"description\": \"Native apps\", \"html_url\": \"https://github.com/eskiu-packages/ui\", \"stargazers_count\": 12},"
+    " {\"name\": \"gpu\", \"description\": null, \"html_url\": \"https://github.com/eskiu-packages/gpu\", \"stargazers_count\": 30},"
+    " {\"name\": \"camera\", \"description\": \"Photos\", \"html_url\": \"https://github.com/eskiu-packages/ui-camera\", \"stargazers_count\": 12}]";
 
 int main() {
     // The JSON from GitHub: most starred first, ties in order, a null description empty.

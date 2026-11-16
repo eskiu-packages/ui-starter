@@ -3,11 +3,11 @@
 </p>
 
 <h2 align="center">ui-starter</h2>
-<p align="center">An app to start from, on eskiu-lang/ui: tabs, screens, the network and a saved theme.</p>
+<p align="center">An app to start from, on eskiu-packages/ui: tabs, screens, the network and a saved theme.</p>
 <p align="center"><sub>Part of the <a href="https://github.com/eskiu-lang">Eskiu</a> project</sub></p>
 
 <p align="center">
-  <a href="https://github.com/eskiu-lang/ui-starter/actions/workflows/ci.yml"><img src="https://github.com/eskiu-lang/ui-starter/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/eskiu-packages/ui-starter/actions/workflows/ci.yml"><img src="https://github.com/eskiu-packages/ui-starter/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT"></a>
 </p>
 
@@ -37,7 +37,7 @@ and controls are denser, so the web build looks like a web app.
    ui serve android      # a device or emulator
    ```
 
-The [ui tool](https://github.com/eskiu-lang/ui/blob/main/docs/getting-started.md) needs
+The [ui tool](https://github.com/eskiu-packages/ui/blob/main/docs/getting-started.md) needs
 emscripten for the web, Xcode for iOS and the Android SDK for Android.
 
 ## What is in it
@@ -60,16 +60,16 @@ back gesture. A tab resets the stack to its route.
 ## Next
 
 - Add screens to `src/screens/` and a route for each in `src/app.esk`.
-- Add a device package: [location](https://github.com/eskiu-lang/ui-location),
-  [notifications](https://github.com/eskiu-lang/ui-notifications),
-  [camera](https://github.com/eskiu-lang/ui-camera),
-  [barcode](https://github.com/eskiu-lang/ui-barcode),
-  [pedometer](https://github.com/eskiu-lang/ui-pedometer),
-  [securestore](https://github.com/eskiu-lang/ui-securestore), or
-  [your own](https://github.com/eskiu-lang/ui-package-template).
-- Draw: [svg](https://github.com/eskiu-lang/ui-svg) for icons and vector art,
-  [canvas](https://github.com/eskiu-lang/ui-canvas) for sprites drawn every frame.
-- The [ui docs](https://github.com/eskiu-lang/ui/tree/main/docs) cover state, components,
+- Add a device package: [location](https://github.com/eskiu-packages/ui-location),
+  [notifications](https://github.com/eskiu-packages/ui-notifications),
+  [camera](https://github.com/eskiu-packages/ui-camera),
+  [barcode](https://github.com/eskiu-packages/ui-barcode),
+  [pedometer](https://github.com/eskiu-packages/ui-pedometer),
+  [securestore](https://github.com/eskiu-packages/ui-securestore), or
+  [your own](https://github.com/eskiu-packages/ui-package-template).
+- Draw: [svg](https://github.com/eskiu-packages/ui-svg) for icons and vector art,
+  [canvas](https://github.com/eskiu-packages/ui-canvas) for sprites drawn every frame.
+- The [ui docs](https://github.com/eskiu-packages/ui/tree/main/docs) cover state, components,
   style and layout, the platform, navigation and native code.
 
 ## Documentation
